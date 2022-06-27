@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Frontend Mentor | Advice generator app</title>
+	</head>
+	<body>
+		<main>
+			<h2>advice #<span id="advice-id">117</span></h2>
+
+			<div class="quote">
+				<q id="advice-string">
+					It's easy to sit up and take notice, what's difficult in
+					getting up and taking action.
+				</q>
+			</div>
+			<div class="pattern-divider">
+				<img
+					class="hide-for-desktop"
+					src="./images/pattern-divider-mobile.svg"
+					alt="pattern-divider"
+				/>
+				<img
+					class="hide-for-mobile"
+					src="./images/pattern-divider-desktop.svg"
+					alt="pattern-divider"
+				/>
+			</div>
+			<button id="generate-advice-btn"
+				><img src="./images/icon-dice.svg" alt="dice icon"
+			/></button>
+		</main>
+
+		<!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+		<script src="main.js"></script>
+	</body>
+</html>
